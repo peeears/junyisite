@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junyi Shi</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <link rel="stylesheet" href="index.css">
 
@@ -22,14 +23,13 @@
             different viewing angles.</span>
     </div>
 
-
-
     <div class="text">
         <div class="menu" id="">
-            <p class="select" id="project_info">Project Info, </p>
+            <p class="select wavy" id="project_info">Project Info, </p>
             <p class="select" id="index">Index, </p>
-            <p class="select" id="contact">Contact</p>
+            <a href="mailto:junyishi.js@gmail.com" class="select" id="contact">Contact</a>
         </div>
+        <div class="projectTitle">Images of Books with Black Types on White Cover</div>
         <div class="textwrapper" hidden>
             <div class="textcontent" id="">Images of Books with Black Types on White Cover, <a
                     href="https://vimeo.com/781620388">a
@@ -123,71 +123,119 @@
     <div class="worksImg">
 
         <div class="scroll-container">
-            <img src="assets/B&W-cover.jpg"></img>
-            <img src="assets/B&W-screenshot.png"></img>
-            <img src="assets/party-invitation.png"></img>
+            <div id="p1">
+                <img src="assets/B&W-cover.jpg"></img>
+                <img src="assets/B&W-screenshot.png"></img>
+            </div>
+            <div id="p2">
+                <img src="assets/party-invitation.png"></img>
+            </div>
             <!-- <div class="iframe__wrapper">
                 <iframe title="vimeo-player" src="https://player.vimeo.com/video/781620388?h=a2be65bf1a" frameborder="0"
                     allowfullscreen scrolling="no"></iframe>
             </div> -->
-            <img src="assets/01-Png-small.jpg"></img>
-            <img src="assets/02-Png-small.jpg"></img>
-            <img src="assets/03-Png.png"></img>
-            <img src="assets/eyeExercise-1.png"></img>
-
-            <img src="assets/2022F-photolecture-sideB.jpg"></img>
-            <img src="assets/2022F-photolecture-sideA2.jpg"></img>
-            <img src="assets/daido-room.jpg"></img>
-            <img src="assets/daido-2.jpg"></img>
-            <img src="assets/daido-3.jpg"></img>
-            <img src="assets/daido-1.jpg"></img>
-            <img src="assets/One-for-all-00.jpg"></img>
-            <img src="assets/One-for-all-02.jpeg"></img>
-            <img src="assets/One-for-all-03.jpeg"></img>
-            <img src="assets/One-for-all-01.png"></img>
-            <img src="assets/Flexy-01.png"></img>
-            <img src="assets/dena-poster.jpeg"></img>
-            <img src="assets/Purple-Heart-01.jpg"></img>
-            <img src="assets/medels.jpeg"></img>
-            <img src="assets/circle-spherical-flag-1.jpg"></img>
-            <img src="assets/paprika-scan.jpeg"></img>
-            <img src="assets/paprika-1.jpg"></img>
-            <!-- <img src="assets/paprika-2.jpg"></img> -->
-            <img src="assets/paprika-3.jpg"></img>
-            <img src="assets/houseplant-web.png"></img>
-            <img src="assets/houseplant-web1.png"></img>
-            <img src="assets/houseplant-pre.jpg"></img>
-            <img src="assets/rooted-1.jpeg"></img>
-            <img src="assets/rooted-2.JPG"></img>
-            <img src="assets/countdown-1.png"></img>
-            <img src="assets/gif-1.gif"></img>
-            <img src="assets/ActionNeeded-PosterBox.jpg"></img>
-            <img src="assets/action-required-outside.jpg"></img>
-            <img src="assets/ActionNeeded-print.jpeg"></img>
-            <img src="assets/ActionNeeded-show.jpg"></img>
-            <img src="assets/ActionNeeded_YSoA_Poster_18x24.jpg"></img>
-            <img src="assets/John-photo.jpg"></img>
-            <img src="assets/John-print.jpg"></img>
-            <img src="assets/the-greatest-artist.png"></img>
-            <img src="assets/noaccess-poster.jpeg"></img>
-            <img src="assets/noaccess-print.jpg"></img>
-            <img src="assets/onDesktop-1.jpeg"></img>
-            <img src="assets/onDesktop-2.jpg"></img>
-            <img src="assets/onDesktop-3.jpg"></img>
-            <img src="assets/onDesktop-4.jpg"></img>
-            <img src="assets/onDesktop-5.jpg"></img>
-            <img src="assets/flagbook-1.jpg"></img>
-            <img src="assets/flagbook-2.jpg"></img>
-            <img src="assets/p5.gif"></img>
-            <img src="assets/starunion-sky.gif"></img>
-            <img src="assets/all-the-same.jpg"></img>
-            <img src="assets/c-dSchool-video.png"></img>
-            <img src="assets/c-dschool-1.jpeg"></img>
-            <img src="assets/zip4.jpg"></img>
-            <img src="assets/zip3.jpg"></img>
-
-
-
+            <div id="p3">
+                <img src="assets/01-Png-small.jpg"></img>
+                <img src="assets/02-Png-small.jpg"></img>
+                <img src="assets/03-Png.png"></img>
+            </div>
+            <div id="p4">
+                <img src="assets/eyeExercise-1.png"></img>
+            </div>
+            <div id="p5">
+                <img src="assets/2022F-photolecture-sideB.jpg"></img>
+                <img src="assets/2022F-photolecture-sideA2.jpg"></img>
+            </div>>
+            <div id="p6">
+                <img src="assets/daido-room.jpg"></img>
+                <img src="assets/daido-2.jpg"></img>
+                <img src="assets/daido-3.jpg"></img>
+                <img src="assets/daido-1.jpg"></img>
+            </div>
+            <div id="p7">
+                <img src="assets/One-for-all-00.jpg"></img>
+                <img src="assets/One-for-all-02.jpeg"></img>
+                <img src="assets/One-for-all-03.jpeg"></img>
+                <img src="assets/One-for-all-01.png"></img>
+            </div>
+            <div id="p8">
+                <img src="assets/Flexy-01.png"></img>
+            </div>
+            <div id="p9">
+                <img src="assets/dena-poster.jpeg"></img>
+            </div>
+            <div id="p10">
+                <img src="assets/Purple-Heart-01.jpg"></img>
+            </div>
+            <div id="p11">
+                <img src="assets/medels.jpeg"></img>
+            </div>
+            <div id="p12">
+                <img src="assets/circle-spherical-flag-1.jpg"></img>
+            </div>
+            <div id="p13">
+                <img src="assets/paprika-scan.jpeg"></img>
+                <img src="assets/paprika-1.jpg"></img>
+                <!-- <img src="assets/paprika-2.jpg"></img> -->
+                <img src="assets/paprika-3.jpg"></img>
+            </div>
+            <div id="p14">
+                <img src="assets/houseplant-web.png"></img>
+                <img src="assets/houseplant-web1.png"></img>
+                <img src="assets/houseplant-pre.jpg"></img>
+            </div>
+            <div id="p15">
+                <img src="assets/rooted-1.jpeg"></img>
+                <img src="assets/rooted-2.JPG"></img>
+            </div>
+            <div id="p16">
+                <img src="assets/countdown-1.png"></img>
+            </div>
+            <div id="p17">
+                <img src="assets/gif-1.gif"></img>
+                <img src="assets/ActionNeeded-PosterBox.jpg"></img>
+                <img src="assets/action-required-outside.jpg"></img>
+                <img src="assets/ActionNeeded-print.jpeg"></img>
+                <img src="assets/ActionNeeded-show.jpg"></img>
+                <img src="assets/ActionNeeded_YSoA_Poster_18x24.jpg"></img>
+            </div>
+            <div id="p18">
+                <img src="assets/John-photo.jpg"></img>
+                <img src="assets/John-print.jpg"></img>
+            </div>
+            <div id="p19">
+                <img src="assets/the-greatest-artist.png"></img>
+            </div>
+            <div id="p20">
+                <img src="assets/noaccess-poster.jpeg"></img>
+            </div>
+            <div id="p21">
+                <img src="assets/noaccess-print.jpg"></img>
+            </div>
+            <div id="p22">
+                <img src="assets/onDesktop-1.jpeg"></img>
+                <img src="assets/onDesktop-2.jpg"></img>
+                <img src="assets/onDesktop-3.jpg"></img>
+                <img src="assets/onDesktop-4.jpg"></img>
+                <img src="assets/onDesktop-5.jpg"></img>
+            </div>
+            <div id="p23">
+                <img src="assets/flagbook-1.jpg"></img>
+                <img src="assets/flagbook-2.jpg"></img>
+                <img src="assets/p5.gif"></img>
+                <img src="assets/starunion-sky.gif"></img>
+            </div>
+            <div id="p24">
+                <img src="assets/all-the-same.jpg"></img>
+            </div>
+            <div id="p25">
+                <img src="assets/c-dSchool-video.png"></img>
+                <img src="assets/c-dschool-1.jpeg"></img>
+            </div>
+            <div id="p26">
+                <img src="assets/zip4.jpg"></img>
+                <img src="assets/zip3.jpg"></img>
+            </div>
 
 
             <img src=""></img>
@@ -195,6 +243,7 @@
 
     </div>
     </div>
+    <script src="./lazy.js"></script>
     <script src="./index.js"></script>
 </body>
 
